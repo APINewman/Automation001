@@ -11,7 +11,7 @@ describe("Suite for validation", function() {
     });
 
     it("Verify the Testcase2", function(){
-        console.log("This is Spec 4")
+        console.log("This is Spec 1")
         browser.get("https://symc.dev.symri.cloud")
         browser.driver.manage().window().maximize()
         browser.driver.sleep(10000)
